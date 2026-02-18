@@ -22,10 +22,10 @@
         <section class="inicio">
             <div class="coluna-texto">
                 <h1>
-                    O poder do visual
+                    Transformamos ideias em marcas memoráveis.
                 </h1>
                 <p>
-                    É um conjunto estratégico de fatores para fortalecer e desenvolver sua marca.
+                    Com o poder visual e estratégico para fortalecer e desenvolver sua marca.
                 </p>
                 <a class="cta" href="#">Começar agora</a>
             </div>
@@ -34,5 +34,16 @@
             </div>
         </section>
     </main>
+    <script>
+    window.addEventListener("scroll", function() {
+        const header = document.querySelector("header");
+
+        if (window.scrollY > 50) {
+            header.classList.add("scrolled");
+        } else {
+            header.classList.remove("scrolled");
+        }
+    });
+</script>
 </body>
 </html>
