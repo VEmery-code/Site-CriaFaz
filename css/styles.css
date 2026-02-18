@@ -101,10 +101,9 @@ header.scrolled {
 .principal {
     font-family: "BebasNeue";
     min-height: calc(100vh - 90px); /* 100vh menos altura do header */
-    display: flex;
     align-items: center;
     padding: 0 80px;
-    margin-top: 90px;
+    margin-top: 130px;
 }
 
 
@@ -206,3 +205,56 @@ header.scrolled {
     }
 }
 
+.servicos {
+    padding: 120px 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.servicos h2 {
+    color: #5e17eb;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.servicos h3{
+    font-size: 27px;
+    text-align: center;
+    color: #5e17eb;
+}
+
+.servicos p{
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    flex-wrap: wrap; /* importante para não quebrar feio em telas menores */
+}
+
+
+.card {
+    width: 300px;
+    background: white;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.textCards{
+    margin-top: 30px;
+}
